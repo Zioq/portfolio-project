@@ -1,11 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { fabFaceBook, faGoogle } from "@fortawesome/free-brands-svg-icons";
-import {
-  faFileCode,
-  faAtom,
-} from "@fortawesome/free-solid-svg-icons";
-import { FaAndroid } from 'react-icons/fa';
+
+import { FaAndroid,FaRegObjectUngroup,FaReact,FaRocket } from 'react-icons/fa';
 const Skills = () => {
   return (
     <div className="skills">
@@ -15,7 +10,7 @@ const Skills = () => {
           <div className="col-md-3 col-sm-6">
             <div className="box">
               <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faAtom} size="2x" />
+                <FaReact className="icon" />
               </div>
 
               <h3>Web Development  (MERN)</h3>
@@ -34,20 +29,20 @@ const Skills = () => {
               <div className="circle">
                 <FaAndroid className="icon"/>
               </div>
-              <h3>Android Mobile App</h3>
-              <p>Your website will be build with an new proven technology</p>
+              <h3>Android Mobile App Development</h3>
+              <p>Using a Android Studio & Java,
+              <br/> I can make an android mobile application</p>
             </div>
           </div>
 
           <div className="col-md-3 col-sm-6">
             <div className="box">
               <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />
+                <FaRegObjectUngroup className="icon"/>
               </div>
-              <h3>Facebook Ads SMM</h3>
+              <h3>Algorithm & <br/> Data Structure</h3>
               <p>
-                You potential clients will see your service or product on
-                Facebook
+                With Ptyhon, <br/> I can solve algorithm & data structure problems
               </p>
             </div>
           </div>
@@ -55,12 +50,12 @@ const Skills = () => {
           <div className="col-md-3 col-sm-6">
             <div className="box">
               <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />
+                <FaRocket className="icon"/>
               </div> 
-              <h3>Google Ads</h3>
+              <h3>Self-Motivated &<br/> Steady-Learner</h3>
               <p>
-                Your Service or product will appera at the top of the Google
-                search
+                Now, I running to my <br/>daily coding challenge <br/>
+                to 300-day as a new goal.
               </p>
             </div>
           </div>

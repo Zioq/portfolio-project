@@ -3,7 +3,7 @@
 /*Set the variable*/
 :root {
   --primary-white: #ffffff;
-  --primary-orange: #f9ab00;
+  --primary-skyblue: #65C6F0;
   --primary-dark: rgb(52, 59, 68);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
@@ -90,11 +90,11 @@ var ul li {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.1875rem solid var(--primary-skyblue);
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.1875rem solid var(--primary-skyblue);
 }
 
 
@@ -122,7 +122,7 @@ var ul li {
 }
 
 .main-info h1 {
-  color:var(--primary-orange);
+  color:var(--primary-skyblue);
   /* text-transform: uppercase; */
 }
 
@@ -194,7 +194,7 @@ var ul li {
 }
 
 .about-heading {
-  color:var(--primary-orange);
+  color:var(--primary-skyblue);
   text-transform: uppercase;
 }
 @media(max-width: 468px) {
@@ -218,7 +218,7 @@ var ul li {
 .skills .circle {
   position: relative;
   margin: 0.375rem auto;
-  background: var(--primary-orange);
+  background: var(--primary-skyblue);
   border-radius: 50%;
   width: 3.125rem;
   height: 3.125rem;
@@ -235,14 +235,14 @@ var ul li {
 
 .skills .box {
   height: 16rem;
-  border-bottom: 5px solid var(--primary-orange);
+  border-bottom: 5px solid var(--primary-skyblue);
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background:white;
 }
 
 .skills .box:hover {
-  background: var(--primary-orange);
+  background: var(--primary-skyblue);
   border-bottom: 5px solid var(--primary-dark);
 }
 
