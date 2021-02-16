@@ -7,7 +7,7 @@ const Skills = () => {
       <h1 className="py-5"> My Skills </h1>
       <div className="container">
         <div className="row">
-          <div className="col-md-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
                 <FaReact className="icon" />
@@ -17,14 +17,14 @@ const Skills = () => {
               <p>
                 Using a MERN-Stack 
                 <br />
-                (MongoDB, Express, React, NodeJs) 
+                (MongoDB Express React NodeJs) 
                 <br />
-                I can develop FULL-STACK application.
+                I can develop FULL-STACK application
               </p>
             </div>
           </div>
 
-          <div className="col-md-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
                 <FaAndroid className="icon"/>
@@ -35,7 +35,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="col-md-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
                 <FaRegObjectUngroup className="icon"/>
@@ -47,7 +47,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="col-md-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
                 <FaRocket className="icon"/>
@@ -55,7 +55,8 @@ const Skills = () => {
               <h3>Self-Motivated &<br/> Steady-Learner</h3>
               <p>
                 Now, I running to my <br/>daily coding challenge <br/>
-                to 300-day as a new goal.
+                to 300-day as a new goal. <br/>
+                (Now over 230 days)
               </p>
             </div>
           </div>
