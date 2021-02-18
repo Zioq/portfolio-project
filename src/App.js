@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
 import Milestones from "./components/Milestones/Milestones";
+import Portfolio from "./components/Portfolio/Portfolio";
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
     <AboutMe />
     <Skills />
     <Milestones />
+    <Portfolio/ >
     </>
   );
 }
