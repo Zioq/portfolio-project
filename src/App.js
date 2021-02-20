@@ -8,6 +8,7 @@ import Skills from "./components/Skills/Skills";
 import Milestones from "./components/Milestones/Milestones";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Testimonials from "./components/Testimonials/Testimonials";
+import ContactMe from "./components/ContactMe/ContactMe";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
     <Milestones />
     <Portfolio />
     <Testimonials />
+    <ContactMe />
     </>
   );
 }
