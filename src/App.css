@@ -93,7 +93,7 @@ var ul li {
   }
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-skyblue);
 }
 
@@ -108,7 +108,7 @@ var ul li {
   background:url(../src/Images/headerImage.png) no-repeat;
   background-size: cover;
   background-position:center;
-  height: 90vh;
+  height: 100vh;
 }
 .main-info {
   display:flex;
@@ -403,6 +403,9 @@ var ul li {
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
+.popupbox-wrapper {
+  margin-top: 8rem;
+}
 
 /*********************  POPUPBOX *********************/
 .portfolio-image-popupbox {
@@ -459,6 +462,7 @@ var ul li {
   text-transform: uppercase;
 }
 
+
 .testimonial-content {
   text-align: center;
   max-width: 53.125rem;
@@ -470,14 +474,14 @@ var ul li {
   color:var(--primary-white);
   background:transparent;
   margin-top: -6%;
-  width: 45%;
+  width: 55%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 6%;
   padding-bottom: 8%;
   padding-left: 5%;
   padding-right: 5%;
-  height: 17.875rem;
+  height: 20rem;
 } 
 
 .myCarousel h3 {
@@ -488,6 +492,7 @@ var ul li {
 
 .myCarousel p {
   color: var(--primary-grey);
+  font-size: 20px;
 }
 
 .carousel .slide img {
@@ -604,4 +609,27 @@ textarea.form-control {
   .contacts p {
     padding: 0 0.4rem;
   }
+}
+
+/*********************  FOOTER *********************/
+
+.footer {
+  background:var(--primary-trasparent-black);
+  color:var(--primary-light-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color:var(--primary-light-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-skyblue);
+  cursor: pointer;
+}
+
+.footer p {
+  padding-bottom: 0;
 }

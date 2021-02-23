@@ -2,7 +2,7 @@ import React from "react";
 
 const Milestones = () => {
   return (
-    <div className="milestones">
+    <div id="milestones" className="milestones">
       <div className="d-flex justify-content-center my-5">
         <h1>Milestones</h1>
       </div>

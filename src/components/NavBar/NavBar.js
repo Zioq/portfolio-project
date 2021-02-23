@@ -3,14 +3,15 @@ import logo from "../../Images/logo.png";
 // REACT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import {Link} from "react-scroll";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
       <div className="container">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img className="logo" src={logo} alt="logo" />
+            {/* <img className="logo" src={logo} alt="logo" /> */}
           </a>
           <button
             className="navbar-toggler"
@@ -26,37 +27,37 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <a className="nav-link" aria-current="page" href="#">
+                <Link smooth={true} to="home" className="nav-link" aria-current="page" href="#">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link smooth={true} to="about" offset={-100} className="nav-link" href="#">
                   About me
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link smooth={true} to="skills" offset={-100} className="nav-link" href="#">
                   Skills
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link smooth={true} to="milestones" offset={-100} className="nav-link" href="#">
                   Milestones
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link smooth={true} to="portfolio" offset={-100} className="nav-link" href="#">
                   Portfolio
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link smooth={true} to="contacts" offset={-100} className="nav-link" href="#">
                   Contacts
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
