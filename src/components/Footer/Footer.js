@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
-              <p>JAEHEYON ROBERT HAN</p>
+              <p>JAEHYEON ROBERT HAN</p>
             </div>
             <div className="d-flex">
               <p>jr.roberthan@gmail.com</p>
