@@ -53,7 +53,7 @@ const Portfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={GraduationProject} alt="Local Restaurant application project" />
-        <p>This is a Local Restaurant Homapge Renewal Project using a voice recognition technique.</p>
+        <p>This is a Local Restaurant Hompage Renewal Project using a voice recognition technique.</p>
         <b>Github <FaGithub />: </b>{" "}
         <a
           className="hyper-link"
@@ -90,7 +90,7 @@ const Portfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={AndroidProject} alt="Andoird Mobile Application Project" />
-        <p>This is an Andoird Mobile Application Project for Vancouver homeless people.</p>
+        <p>This is an Android Mobile Application Project for Vancouver homeless people.</p>
         <b>Github <FaGithub />: </b>{" "}
         <a
           className="hyper-link"
@@ -107,7 +107,7 @@ const Portfolio = () => {
       content,
       config: {
         titleBar : {
-          text:"Anroid Mobile Application Development Project"
+          text:"Android Mobile Application Development Project"
         }
       }
     })
@@ -116,7 +116,7 @@ const Portfolio = () => {
   const popupboxConfigAndroid = {
     titleBar: {
       enable:true,
-      text:"Anroid Mobile Application Development Project"
+      text:"Android Mobile Application Development Project"
     },
     fadeIn: true,
     fadeInSpeed: 500
@@ -127,7 +127,7 @@ const Portfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={PortfolioProject} alt="Portfolio Web Project" />
-        <p>This is a Portfolio Web Development Project With React And Bootstrap</p>
+        <p>This is a Portfolio Web Development Project With React & Bootstrap</p>
         <b>Github <FaGithub />: </b>{" "}
         <a
           className="hyper-link"
