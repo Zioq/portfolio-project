@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio-project/static/css/main.d9336f29.chunk.css",
+    "main.js": "/portfolio-project/static/js/main.72c6f13f.chunk.js",
+    "main.js.map": "/portfolio-project/static/js/main.72c6f13f.chunk.js.map",
+    "runtime-main.js": "/portfolio-project/static/js/runtime-main.18c4742d.js",
+    "runtime-main.js.map": "/portfolio-project/static/js/runtime-main.18c4742d.js.map",
+    "static/css/2.0ff638ac.chunk.css": "/portfolio-project/static/css/2.0ff638ac.chunk.css",
+    "static/js/2.2fa0f283.chunk.js": "/portfolio-project/static/js/2.2fa0f283.chunk.js",
+    "static/js/2.2fa0f283.chunk.js.map": "/portfolio-project/static/js/2.2fa0f283.chunk.js.map",
+    "static/js/3.ad1fdcb1.chunk.js": "/portfolio-project/static/js/3.ad1fdcb1.chunk.js",
+    "static/js/3.ad1fdcb1.chunk.js.map": "/portfolio-project/static/js/3.ad1fdcb1.chunk.js.map",
+    "index.html": "/portfolio-project/index.html",
+    "static/css/2.0ff638ac.chunk.css.map": "/portfolio-project/static/css/2.0ff638ac.chunk.css.map",
+    "static/css/main.d9336f29.chunk.css.map": "/portfolio-project/static/css/main.d9336f29.chunk.css.map",
+    "static/js/2.2fa0f283.chunk.js.LICENSE.txt": "/portfolio-project/static/js/2.2fa0f283.chunk.js.LICENSE.txt",
+    "static/media/AndoirdProject.f2b7a1b4.png": "/portfolio-project/static/media/AndoirdProject.f2b7a1b4.png",
+    "static/media/GraduationProject.5312f660.png": "/portfolio-project/static/media/GraduationProject.5312f660.png",
+    "static/media/MovieApplicationProject.02b6eb3a.png": "/portfolio-project/static/media/MovieApplicationProject.02b6eb3a.png",
+    "static/media/PorfolioProject.fc7d5019.png": "/portfolio-project/static/media/PorfolioProject.fc7d5019.png",
+    "static/media/aboutMe.a147e138.png": "/portfolio-project/static/media/aboutMe.a147e138.png",
+    "static/media/avatar-man.9277ecea.png": "/portfolio-project/static/media/avatar-man.9277ecea.png",
+    "static/media/avatar-woman.75d8f23e.png": "/portfolio-project/static/media/avatar-woman.75d8f23e.png",
+    "static/media/App.css": "/portfolio-project/static/media/testimonial-bg.233f5801.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18c4742d.js",
+    "static/css/2.0ff638ac.chunk.css",
+    "static/js/2.2fa0f283.chunk.js",
+    "static/css/main.d9336f29.chunk.css",
+    "static/js/main.72c6f13f.chunk.js"
+  ]
+}
