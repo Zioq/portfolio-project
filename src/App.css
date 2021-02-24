@@ -3,15 +3,15 @@
 /*Set the variable*/
 :root {
   --primary-white: #ffffff;
-  --primary-skyblue: #65C6F0;
+  --primary-skyblue: #65c6f0;
   --primary-dark: rgb(52, 59, 68);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
-  --primary-light-grey:#f4f4f4;
-  --primary-grey:#ccd1d9;
-  --primary-dark-grey:#666666;
-  --primary-trasparent-black:rgba(0,0,0,0.7);
-  --primary-green: green; 
+  --primary-light-grey: #f4f4f4;
+  --primary-grey: #ccd1d9;
+  --primary-dark-grey: #666666;
+  --primary-trasparent-black: rgba(0, 0, 0, 0.7);
+  --primary-green: green;
 }
 
 body {
@@ -66,7 +66,7 @@ nav {
 
 /*********************  MUNU LINKS *********************/
 nav a.nav-link {
-  font-size: .8rem;
+  font-size: 0.8rem;
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
@@ -87,13 +87,14 @@ var ul li {
   padding: 0 !important;
   height: 6rem !important;
 }
-@media(max-width:768px) {
+@media (max-width: 768px) {
   .navbar-brand {
-    width:7rem
+    width: 7rem;
   }
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-skyblue);
 }
 
@@ -101,19 +102,18 @@ var ul li {
   border-top: 0.1875rem solid var(--primary-skyblue);
 }
 
-
 /*********************  HEADER *********************/
 .header-wraper {
   position: relative;
-  background:url(../src/Images/headerImage.png) no-repeat;
+  background: url(../src/Images/headerImage.png) no-repeat;
   background-size: cover;
-  background-position:center;
+  background-position: center;
   height: 100vh;
 }
 .main-info {
-  display:flex;
+  display: flex;
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
@@ -126,36 +126,34 @@ var ul li {
 }
 
 .main-info h1 {
-  color:var(--primary-skyblue);
+  color: var(--primary-skyblue);
   /* text-transform: uppercase; */
 }
-
 
 /*********************  TYPED TEXT *********************/
 
 .typed-text {
-  font-size:2rem;
-  color: var(--primary-white)
+  font-size: 2rem;
+  color: var(--primary-white);
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
   .main-info h1 {
     font-size: 1.5rem !important;
   }
   .typed-text {
     font-size: 1.3rem !important;
-    color: var(--primary-white)
+    color: var(--primary-white);
   }
 }
-
 
 /*********************  HEADER MAIN OFFER BUTTON *********************/
 
 .btn-main-offer {
-  border : 1px solid var(--primary-skyblue);
+  border: 1px solid var(--primary-skyblue);
   text-transform: uppercase;
   border-radius: 0;
-  padding:  0.625rem 0.75rem 0.75rem 0.75rem;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
 }
@@ -163,47 +161,45 @@ var ul li {
   text-decoration: none;
   background-color: var(--primary-skyblue);
   color: var(--primary-white);
-  transition: .25 ease-in-out
+  transition: 0.25 ease-in-out;
 }
 
 /*********************  PARTICLES JS *********************/
 
-.tsparticles-canvas-el{
+.tsparticles-canvas-el {
   position: absolute;
   height: 100vh;
   width: 100vw;
   z-index: 1;
 }
 
-
-@media(max-width:768px) {
+@media (max-width: 768px) {
   .particles-canvas {
-    display:none;
+    display: none;
   }
 }
 
 /*********************  ABOUT ME *********************/
 
 .photo-wrap {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .profile-img {
   width: 30rem;
   border-radius: 50%;
-  padding: .3rem;
+  padding: 0.3rem;
   border: 1px solid var(--primary-white);
 }
 
 .about-heading {
-  color:var(--primary-skyblue);
+  color: var(--primary-skyblue);
   text-transform: uppercase;
 }
-@media(max-width: 468px) {
+@media (max-width: 468px) {
   .profile-img {
-    width:15rem
+    width: 15rem;
   }
 }
 
@@ -214,8 +210,8 @@ var ul li {
   background-color: var(--primary-light-grey);
 }
 
-.skills h1  {
-  color:var(--primary-skyblue);
+.skills h1 {
+  color: var(--primary-skyblue);
   text-transform: uppercase;
 }
 
@@ -233,7 +229,7 @@ var ul li {
   color: var(--primary-white);
   position: absolute;
   top: 50%;
-  left:50%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -242,8 +238,8 @@ var ul li {
   border-bottom: 5px solid var(--primary-skyblue);
   padding: 0.625rem;
   margin-bottom: 1.875rem;
-  background:white;
-  transition: 0.3s ease-in-out
+  background: white;
+  transition: 0.3s ease-in-out;
 }
 
 .skills .box:hover {
@@ -251,16 +247,32 @@ var ul li {
   border-bottom: 5px solid var(--primary-dark);
 }
 
-.skills .box:hover .icon{
-  color:var(--primary-dark);
+.skills .box:hover .icon {
+  color: var(--primary-dark);
 }
 
-.skills .box:hover .circle{
-  background:var(--primary-white);
+.skills .box:hover .circle {
+  background: var(--primary-white);
 }
 
 .skills .box:hover p {
-  color:var(--primary-white);
+  color: var(--primary-white);
+}
+
+ul.horizontal-slide {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+ul.horizontal-slide li[class*="col"] {
+  display: inline-block;
+  float: none;
+}
+
+ul.horizontal-slide li[class*="col"]:first-child {
+  margin-left: 0;
 }
 
 /*********************  Milestones *********************/
@@ -281,12 +293,12 @@ var ul li {
 
 .experience-wrapper::before {
   position: absolute;
-  content:"";
+  content: "";
   top: 0;
-  left:50%;
+  left: 50%;
   margin-left: -0.0625rem;
-  width:0.125rem;
-  height:100%;
+  width: 0.125rem;
+  height: 100%;
   background: var(--primary-grey);
   z-index: 1;
 }
@@ -295,7 +307,7 @@ var ul li {
   width: calc(50% + 0.5rem);
   display: flex;
   justify-content: space-between;
-  clear:both;
+  clear: both;
 }
 .timeline-block-right {
   float: right;
@@ -329,10 +341,8 @@ var ul li {
   font-weight: 900;
 }
 
-
 /*********************  MEDIA *********************/
-@media(max-width: 768px) {
-
+@media (max-width: 768px) {
   .experience .container {
     padding-left: 0;
   }
@@ -341,21 +351,20 @@ var ul li {
     margin-bottom: 1.875rem;
   }
   .timeline-block-right {
-    float:none;
-    width:100%;
-    
+    float: none;
+    width: 100%;
   }
   .timeline-block-left {
-    float:none;
+    float: none;
     direction: ltr;
-    width:100%;
+    width: 100%;
   }
 }
 
 /*********************  PORTFOLIO *********************/
 .porfolio-wrapper {
   background: var(--primary-light-grey);
-  padding: 3rem 0 ;
+  padding: 3rem 0;
 }
 
 .porfolio-wrapper h1 {
@@ -365,7 +374,7 @@ var ul li {
   width: 15rem;
   height: 9rem;
   border: 1px solid var(--primary-skyblue);
-  padding: 0.3rem 0.2rem
+  padding: 0.3rem 0.2rem;
 }
 .portfolio-img-box {
   position: relative;
@@ -375,11 +384,11 @@ var ul li {
 /*********************  OVERFLOW BOX *********************/
 .overflow {
   position: absolute;
-    opacity: 0;
-    background: var(--primary-dark);
-    width: 15rem;
-    height: 9rem;
-    top: 0;
+  opacity: 0;
+  background: var(--primary-dark);
+  width: 15rem;
+  height: 9rem;
+  top: 0;
 
   cursor: pointer;
 }
@@ -410,39 +419,39 @@ var ul li {
 /*********************  POPUPBOX *********************/
 .portfolio-image-popupbox {
   width: 45rem;
-  padding:0 0.5rem
+  padding: 0 0.5rem;
 }
 .hyper-link {
   cursor: pointer;
-  color:var(--primary-skyblue);
+  color: var(--primary-skyblue);
 }
 .hyper-link:hover {
- color:var(--primary-red);
+  color: var(--primary-red);
 }
 
 /*********************  POPUPBOX MEDIA*********************/
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .portfolio-image-popupbox {
-    width:100%
+    width: 100%;
   }
 }
 
-@media(max-height: 570px) {
+@media (max-height: 570px) {
   .popupbox-wrapper {
-    height: 100%
+    height: 100%;
   }
 
   .portfolio-image-popupbox {
-    width: 60%
+    width: 60%;
   }
 }
 
-@media(max-height: 280px) {
+@media (max-height: 280px) {
   .popupbox-wrapper {
-    height: 90%
+    height: 90%;
   }
   .portfolio-image-popupbox {
-    width: 40%
+    width: 40%;
   }
 }
 
@@ -462,7 +471,6 @@ var ul li {
   text-transform: uppercase;
 }
 
-
 .testimonial-content {
   text-align: center;
   max-width: 53.125rem;
@@ -471,8 +479,8 @@ var ul li {
 }
 
 .myCarousel {
-  color:var(--primary-white);
-  background:transparent;
+  color: var(--primary-white);
+  background: transparent;
   margin-top: -6%;
   width: 55%;
   margin-left: auto;
@@ -482,12 +490,12 @@ var ul li {
   padding-left: 5%;
   padding-right: 5%;
   height: 20rem;
-} 
+}
 
 .myCarousel h3 {
   font-weight: 600;
   text-transform: uppercase;
-  color:var(--primary-skyblue);
+  color: var(--primary-skyblue);
 }
 
 .myCarousel p {
@@ -496,48 +504,62 @@ var ul li {
 }
 
 .carousel .slide img {
-  width:10rem !important;
+  width: 10rem !important;
   border-radius: 50%;
-
 }
 
 .carousel .slide {
-  background:transparent !important;
+  background: transparent !important;
   height: 100% !important;
   padding-top: 2rem;
 }
 
-.carousel-root {
-  margin: auto !important;
-  margin-top: 3% !important;
+/* Iphone X */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .myCarousel {
+    height: 35rem;
+  }
+}
+/* Iphone 8 */
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  .myCarousel {
+    height: 35rem;
+  }
+}
+/* Iphone 8 plus */
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  .myCarousel {
+    height: 35rem;
+  }
 }
 /*********************  CONTACT ME *********************/
 
 .contacts {
-  background:var(--primary-dark);
+  background: var(--primary-dark);
   padding: 3rem 0;
 }
 
 .contacts h1 {
   color: var(--primary-skyblue);
-  padding: 1.3rem 0; 
+  padding: 1.3rem 0;
   text-transform: uppercase;
 }
 
 .contacts p {
-  color:var(--primary-light-grey);
+  color: var(--primary-light-grey);
   font-size: 1.2rem;
 }
 /*********************  INPUT *********************/
-.contacts input, .contacts textarea {
+.contacts input,
+.contacts textarea {
   width: 100%;
   box-sizing: border-box;
   background: none;
   resize: none;
-  border:0;
+  border: 0;
   border-bottom: 0.125rem solid var(--primary-dark-grey);
   border-radius: 0;
-  color:var(--primary-skyblue);
+  color: var(--primary-skyblue);
   outline: 0 !important;
   box-shadow: none !important;
   margin-bottom: 1rem;
@@ -548,21 +570,21 @@ var ul li {
   padding: 4rem 0;
 }
 
-.contacts input:focus, .contacts textarea:focus {
+.contacts input:focus,
+.contacts textarea:focus {
   background: transparent;
   color: var(--primary-skyblue);
   border-bottom: 0.125rem solid var(--primary-dark-grey);
 }
 
 .contacts textarea {
-  height:12.1rem !important;
+  height: 12.1rem !important;
 }
 
 .contact-btn {
   margin: 1rem 0 0 0;
   width: 100%;
-  background:none;
-
+  background: none;
 }
 .line {
   position: relative;
@@ -570,10 +592,11 @@ var ul li {
   width: 0;
   height: 0.125rem;
   background: var(--primary-skyblue);
-  display:inline-block;
+  display: inline-block;
 }
 
-input:focus+.line, textarea:focus+.line {
+input:focus + .line,
+textarea:focus + .line {
   width: 100%;
   transition: width 0.5s ease-in-out;
 }
@@ -585,7 +608,7 @@ textarea.form-control {
   margin: -0.3rem 0;
 }
 
-.error-message{
+.error-message {
   color: var(--primary-red);
   text-align: left;
 }
@@ -596,15 +619,14 @@ textarea.form-control {
 }
 
 /*********************  MEDIA *********************/
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .contacts {
-    overflow-x:hidden;
-  }
-  
-  .contacts .container {
-    padding:0 1rem
+    overflow-x: hidden;
   }
 
+  .contacts .container {
+    padding: 0 1rem;
+  }
 
   .contacts p {
     padding: 0 0.4rem;
@@ -614,14 +636,14 @@ textarea.form-control {
 /*********************  FOOTER *********************/
 
 .footer {
-  background:var(--primary-trasparent-black);
-  color:var(--primary-light-grey);
+  background: var(--primary-trasparent-black);
+  color: var(--primary-light-grey);
   padding: 3rem;
 }
 
 .footer a {
   text-decoration: none;
-  color:var(--primary-light-grey);
+  color: var(--primary-light-grey);
 }
 
 .footer a:hover {

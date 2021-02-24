@@ -11,14 +11,10 @@ const Milestones = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2020 - 2021</h3>
+            <h3>2021</h3>
             <p>
-              {" "}
-              What did you study this weekend? This week was a long weekend in
-              Vancouver, so before having a good time with my people, I’ve
-              continued to build up my porfolio website. Evne there was no any
-              complex algorithm to build, but still I’m poor at the css sytyls,
-              it tooks more time than I expected.
+              In March 2021, I'm going to graduate in Computer and Information
+              Systems(Post-Baccalaureate Diploma) from Douglas College.
             </p>
           </div>
         </div>
@@ -26,13 +22,20 @@ const Milestones = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2018 - 2019</h3>
+            <h3>2020</h3>
             <p>
-              What did you study this weekend? This week was a long weekend in
-              Vancouver, so before having a good time with my people, I’ve
-              continued to build up my porfolio website. Evne there was no any
-              complex algorithm to build, but still I’m poor at the css sytyls,
-              it tooks more time than I expected.
+              In April 2020, I started the "Daily 3 hours Coding Challenge", and
+              have developed over 5 side projects(Full-Stack Project & Python
+              Project).
+              <br />
+              Project List :
+              <br />
+              - Local Restaurant Homepage Renewal Project
+              <br />
+              - Douglas College API Project
+              <br />
+              - Movie Recommendation Homepage Project
+              <br />- Android App Project for Vancouver Homeless People
             </p>
           </div>
         </div>
@@ -40,13 +43,10 @@ const Milestones = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2016 - 2018</h3>
+            <h3>2018</h3>
             <p>
-              What did you study this weekend? This week was a long weekend in
-              Vancouver, so before having a good time with my people, I’ve
-              continued to build up my porfolio website. Evne there was no any
-              complex algorithm to build, but still I’m poor at the css sytyls,
-              it tooks more time than I expected.
+              In August 2018, I'm graduated with a Bachelor's of Business
+              Administration(BBA) and Minor in Computer Science.
             </p>
           </div>
         </div>
@@ -54,13 +54,13 @@ const Milestones = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>Before 2016</h3>
+            <h3>Before 2018</h3>
             <p>
-              What did you study this weekend? This week was a long weekend in
-              Vancouver, so before having a good time with my people, I’ve
-              continued to build up my porfolio website. Evne there was no any
-              complex algorithm to build, but still I’m poor at the css sytyls,
-              it tooks more time than I expected.
+              I operated my own business(Coffee Shop) in Seoul, Korea. I
+              dedicated myself to doing market research for developing business
+              strategies to growth of profit. Also, I managed and coached
+              part-time coworkers’ skills to provide optimal service to
+              customers.
             </p>
           </div>
         </div>

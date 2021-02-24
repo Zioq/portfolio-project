@@ -13,6 +13,8 @@
     "bootstrap": "^4.6.0",
     "emailjs-com": "^2.6.4",
     "react": "^17.0.1",
+    "react-desktop": "^0.3.9",
+    "react-devicon": "^0.1.9",
     "react-dom": "^17.0.1",
     "react-hook-form": "^6.15.2",
     "react-icons": "^4.2.0",

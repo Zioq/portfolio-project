@@ -15,7 +15,7 @@ const Portfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={MovieApplicationProject} alt="movie application project" />
-        <p>This is a Movie Application Project</p>
+        <p>This is a Movie Recommendation Project using a 3rd party API.</p>
         <b>Github <FaGithub />: </b>{" "}
         <a
           className="hyper-link"
@@ -53,7 +53,7 @@ const Portfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={GraduationProject} alt="Local Restaurant application project" />
-        <p>This is a graduation project</p>
+        <p>This is a Local Restaurant Homapge Renewal Project using a voice recognition technique.</p>
         <b>Github <FaGithub />: </b>{" "}
         <a
           className="hyper-link"
@@ -90,7 +90,7 @@ const Portfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={AndroidProject} alt="Andoird Mobile Application Project" />
-        <p>This is an Andoird Mobile Application Project</p>
+        <p>This is an Andoird Mobile Application Project for Vancouver homeless people.</p>
         <b>Github <FaGithub />: </b>{" "}
         <a
           className="hyper-link"
