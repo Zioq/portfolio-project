@@ -393,14 +393,14 @@ ul.horizontal-slide li[class*="col"]:first-child {
   cursor: pointer;
 }
 
-.portfolio-img-box:hover .overflow {
+.portfolio-img-box .overflow {
   opacity: 60%;
   transition: 0.3s ease-in-out;
 }
 
 .portfolio-icon {
   position: absolute;
-  opacity: 0;
+  opacity: 100%;
   margin-left: -9rem;
   margin-top: 3rem;
   color: var(--primary-skyblue);

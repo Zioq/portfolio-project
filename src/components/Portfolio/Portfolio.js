@@ -20,10 +20,10 @@ const Portfolio = () => {
         <a
           className="hyper-link"
           onClick={() =>
-            window.open("https://github.com/Zioq/CSIS3380_JavaScript")
+            window.open("https://github.com/Zioq/Movie_Recommandation_System")
           }
         >
-          https://github.com/Zioq/CSIS3380_JavaScript
+          https://github.com/Zioq/Movie_Recommandation_System
         </a>
       </>
     );

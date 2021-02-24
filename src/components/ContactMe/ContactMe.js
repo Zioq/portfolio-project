@@ -42,7 +42,7 @@ const ContactMe = () => {
       <div className="text-center">
         <h1>contact me</h1>
         <p>
-          Any questions about me, or if you intreseted on me, feel free to
+          Any questions about me, or if you are interested in me, feel free to
           contact any time.
         </p>
         <span className="success-message">{successMessage}</span>
